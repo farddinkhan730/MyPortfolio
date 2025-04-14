@@ -30,7 +30,7 @@ const AboutSection = () => {
           </div>
 
           {/* Right Side - About Me Section */}
-          <div className="w-full lg:w-1/2 lg:pl-12 mt-5">
+          <div className="w-full lg:w-1/2 lg:pl-12 mt-5 p-4">
             <div className="about-content relative">
               {/* Title and Heading */}
               <div className="mb-6">
@@ -44,12 +44,14 @@ const AboutSection = () => {
 
               {/* Description */}
               <p className="text-gray-600 mb-4 w-4/3">
-              I am a passionate Web Developer with expertise in React, Tailwind CSS, and modern UI/UX design. I specialize in creating responsive, user-friendly, and high-performance applications.<br/>
-               <br/>
-               With a strong foundation in Artificial Intelligence & Machine Learning, I blend technology with creativity to build seamless digital experiences. Constantly learning and experimenting, I aim to develop innovative solutions that make an impact.<br/>
-               <br/>
-               🔹 <b>Skills:</b> React.js, Node.js, Tailwind CSS, JavaScript, Python, Firebase<br/>
-               🔹 <b>Interests:</b> AI, Open-Source, Web Performance Optimization
+                Hi, I'm Farddin, a passionate and detail-oriented Full Stack Developer based in Noida, India. I specialize in building modern web applications using technologies like Java, Spring Boot, React, Node.js, Express JS , MongoDB and SQL. With 2+ years of hands-on experience, I enjoy turning complex problems into simple, scalable solutions.               <br />
+                I'm driven by curiosity and continuous learning. Whether it’s crafting intuitive user interfaces or optimizing backend performance, I love working across the stack to bring ideas to life. I’ve also worked on production-ready systems, handled deployments, and supported applications post-release to ensure smooth functionality.
+                When I'm not coding, you’ll find me exploring new tech trends, learning something new, or contributing to side projects to sharpen my skills.
+                Let’s build something amazing together.
+                <br />
+                <br />
+                🔹 <b>Skills:</b> React.js, Node.js, ExpressJS, MongoDB, SQL, Java, SpringBoot, Tailwind CSS, JavaScript, TypeScript, Redux, ContextApi, GraphQL<br />
+                🔹 <b>Interests:</b> AI, Open-Source, Web Performance Optimization
               </p>
 
               {/* Horizontal Line */}
@@ -75,7 +77,7 @@ const AboutSection = () => {
                 </div>
                 <div className="flex items-center">
                   <span className="font-semibold w-32">Occupation:</span>
-                  <span>Web Developer</span>
+                  <span>Full Stack Developer</span>
                 </div>
                 <div className="flex items-center">
                   <span className="font-semibold w-32">Nationality:</span>

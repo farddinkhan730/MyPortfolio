@@ -7,17 +7,24 @@ import nodejsLogo from '../assets/skills-logo/node-js-logo.webp';
 import pythonLogo from '../assets/skills-logo/python-logo.webp';
 import reactLogo from '../assets/skills-logo/react-logo.webp';
 import sqlLogo from '../assets/skills-logo/sql-logo.webp';
+import express from '../assets/skills-logo/express.png';
+import MongoDB from '../assets/skills-logo/mongo.png';
+import spring from '../assets/skills-logo/spring.png';
+import { m } from 'framer-motion';
 
 const Skills = () => {
   const skills = [
     { name: 'React', logo: reactLogo },
     { name: 'JavaScript', logo: jsLogo },
     { name: 'Node.js', logo: nodejsLogo },
-    { name: 'Python', logo: pythonLogo },
+    // { name: 'Python', logo: pythonLogo },
     { name: 'Java', logo: javaLogo },
     { name: 'SQL', logo: sqlLogo },
     { name: 'Tailwind CSS', logo: tailwindLogo },
     { name: 'GitHub', logo: githubLogo },
+    { name: 'Express', logo: express },
+    { name: 'MongoDB', logo: MongoDB },
+    { name: 'SpringBoot', logo: spring },
     // Duplicate for smooth infinite scroll
     { name: 'React', logo: reactLogo },
     { name: 'JavaScript', logo: jsLogo },
@@ -27,6 +34,9 @@ const Skills = () => {
     { name: 'SQL', logo: sqlLogo },
     { name: 'Tailwind CSS', logo: tailwindLogo },
     { name: 'GitHub', logo: githubLogo },
+    { name: 'Express', logo: express },
+    { name: 'MongoDB', logo: MongoDB },
+    { name: 'SpringBoot', logo: spring },
   ];
 
   return (
