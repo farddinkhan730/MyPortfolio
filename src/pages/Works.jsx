@@ -4,48 +4,48 @@ import ProjectModal from '../components/ProjectModal';
 
 // Import project images
 import comicCrafterImg from '../assets/project-image/comic-crafter-ai.png';
-import streamNestImg from '../assets/project-image/streamNestImg.png';
-import spotifyPlayerImg from '../assets/project-image/spotify-music-player.png';
+import techroad from '../assets/project-image/techroad.png';
+import LearnX from '../assets/project-image/learnX.png';
 
 const Works = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = useMemo(() => [
-    {
-      category: 'ML Model',
-      title: 'Comic Crafter AI',
-      description: 'AI-powered comic panel generator',
-      longDescription: 'Comic Crafter AI lets users create custom comic strips using AI, leveraging OpenAI GPT-3.5 Turbo for story generation and DALL·E for image creation.',
-      image: comicCrafterImg,
-      type: 'AI Application',
-      client: 'Personal Project',
-      tools: 'Python, Tailwind CSS, OpenAI GPT-3.5, DALL·E',
-      tags: ['AI', 'ML', 'Web'],
-      github: 'https://github.com/Ayak-Here/Comic_generator'
-    },
+    // {
+    //   category: 'ML Model',
+    //   title: 'Comic Crafter AI',
+    //   description: 'AI-powered comic panel generator',
+    //   longDescription: 'Comic Crafter AI lets users create custom comic strips using AI, leveraging OpenAI GPT-3.5 Turbo for story generation and DALL·E for image creation.',
+    //   image: comicCrafterImg,
+    //   type: 'AI Application',
+    //   client: 'Personal Project',
+    //   tools: 'Python, Tailwind CSS, OpenAI GPT-3.5, DALL·E',
+    //   tags: ['AI', 'ML', 'Web'],
+    //   github: 'https://github.com/Ayak-Here/Comic_generator'
+    // },
     {
       "category": "Frontend",
-      "title": "StreamNest",
-      "description": "Legal movie streaming website",
-      "longDescription": "A dark-themed movie streaming platform built using React. Features smooth UI, categorized content, and responsive design.",
-      "image": streamNestImg,
+      "title": "TechRoad",
+      "description": "Gives Roadmap to learn tech",
+      "longDescription": "TechRoad is a web application that provides a comprehensive roadmap for learning various technologies. It offers a structured approach to mastering tech skills.",
+      "image": techroad,
       "type": "Web Application",
       "client": "Open Source",
-      "tools": "React, Vite, Tailwind CSS",
-      "tags": ["Streaming", "Web", "Entertainment"],
-      "github": "#"
+      "tools": "HTML, CSS, JS",
+      "tags": [],
+      "github": "https://github.com/farddinkhan730/TechRoad-Full-Stack-Project"
     },
     {
-      category: 'Frontend',
-      title: 'Spotify Player',
-      description: 'Music player with Spotify-like UI',
-      longDescription: 'A Spotify-inspired music player with sleek UI and essential playback features.',
-      image: spotifyPlayerImg,
+      category: 'FullStack',
+      title: 'LearnX',
+      description: 'A platform for learning and sharing knowledge',
+      longDescription: 'LearnX is a web application that allows users to learn and share knowledge on various topics. It features user authentication, content creation, and community engagement.',
+      image: LearnX,
       type: 'Web App',
-      client: 'Portfolio',
-      tools: 'React, Tailwind CSS',
-      tags: ['Music', 'React'],
-      github: '#'
+      client: 'Open Source',
+      tools: 'React, Tailwind CSS , JS ',
+      tags: [],
+      github: 'https://github.com/farddinkhan730/LearnX-1'
     }
   ], []);
 

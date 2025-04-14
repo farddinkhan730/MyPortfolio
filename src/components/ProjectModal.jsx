@@ -42,7 +42,7 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
             role="dialog"
             aria-modal="true"
             aria-labelledby={`project-modal-title-${project.title}`}
-            style={{ maxHeight: 'calc(100vh - 12rem)' }}
+            style={{ maxHeight: 'calc(100vh - 8rem)' }}
             onClick={e => e.stopPropagation()}
           >
             {/* Image Section */}
